@@ -59,7 +59,7 @@ If all steps have been successful up to this point, proceed with the following:
 
 Connect the SBG IMU
 
-`Run the ekf node in State Estimation.`
+Run the ekf node in State Estimation.
 `ros2 run state_estimation ekf`
 
 
@@ -71,78 +71,4 @@ Contributions to enhance the functionality, efficiency, or compatibility of this
 This project is licensed under the MIT License. Feel free to use and modify the code according to your requirements.
 
 ### TESTING VIDEOS:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# State-Estimation-Autonomous-Vehicle
-State Estimation for Autonomous Car
-
-Welcome to the State Estimation for Autonomous Car repository!
-
-## Overview
-
-
-## Features
-SBG Systems IMU Integration: The code seamlessly interfaces with the SBG Systems IMU, utilizing the SBG ROS2 Driver to extract valuable sensor data for state estimation.
-Robust State Estimation: Advanced algorithms ensure robust and accurate positioning, essential for the navigation of autonomous vehicles.
-Requirements
-The code has been tested on the following setup:
-
-## Hardware: SBG Systems IMU (Refer to SBG IMU Documentation for setup instructions)
-Operating System: Ubuntu 20.04 (Compatibility with 22.04 not yet verified)
-ROS Version: ROS2 Galactic (Possibly compatible with Humble and Foxy, although not yet tested)
-Dependencies:
-
-## SBG Systems ROS Driver: Install using instructions provided by SBG Systems.
-Your Additional Dependency 1
-Your Additional Dependency 2
-Getting Started
-Ensure that you have all the requirements satisfied before proceeding.
-
-## Clone the Repository:
-git clone https://github.com/HammadSiddiqui30/State-Estimation-Autonomous-Vehicle.git
-Build:
-Navigate to the cloned repository directory and build using Colcon:
-
-cd <state_estimation>
-colcon build
-If all steps have been successful up to this point, proceed with the following:
-
-Connect the SBG IMU.
-
-Run the State Estimation Node:
-ros2 run state_estimation ekf
-
-Alternatively, for directly launching the SBG ROS2 Driver and running the node:
-ros2 launch sbg_driver sbg_device_launch.py
-
-## Contributions
-Contributions to enhance the functionality, efficiency, or compatibility of this state estimation module are highly encouraged. Please refer to the contribution guidelines for more information.
-
-## License
-This project is licensed under the MIT License. Feel free to use and modify the code according to your requirements.
-
-
-
-
 
