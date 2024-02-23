@@ -1,0 +1,41 @@
+running egg_info
+creating build/state_estimation/state_estimation.egg-info
+writing build/state_estimation/state_estimation.egg-info/PKG-INFO
+writing dependency_links to build/state_estimation/state_estimation.egg-info/dependency_links.txt
+writing entry points to build/state_estimation/state_estimation.egg-info/entry_points.txt
+writing requirements to build/state_estimation/state_estimation.egg-info/requires.txt
+writing top-level names to build/state_estimation/state_estimation.egg-info/top_level.txt
+writing manifest file 'build/state_estimation/state_estimation.egg-info/SOURCES.txt'
+reading manifest file 'build/state_estimation/state_estimation.egg-info/SOURCES.txt'
+writing manifest file 'build/state_estimation/state_estimation.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/build/state_estimation/build
+creating /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/build/state_estimation/build/lib
+creating /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/build/state_estimation/build/lib/state_estimation
+copying state_estimation/ekf.py -> /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/build/state_estimation/build/lib/state_estimation
+copying state_estimation/__init__.py -> /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/build/state_estimation/build/lib/state_estimation
+copying state_estimation/ekf_publisher.py -> /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/build/state_estimation/build/lib/state_estimation
+copying state_estimation/geonav_conversions.py -> /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/build/state_estimation/build/lib/state_estimation
+running install
+running install_lib
+creating /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/install/state_estimation/lib/python3.8/site-packages/state_estimation
+copying /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/build/state_estimation/build/lib/state_estimation/ekf.py -> /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/install/state_estimation/lib/python3.8/site-packages/state_estimation
+copying /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/build/state_estimation/build/lib/state_estimation/__init__.py -> /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/install/state_estimation/lib/python3.8/site-packages/state_estimation
+copying /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/build/state_estimation/build/lib/state_estimation/ekf_publisher.py -> /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/install/state_estimation/lib/python3.8/site-packages/state_estimation
+copying /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/build/state_estimation/build/lib/state_estimation/geonav_conversions.py -> /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/install/state_estimation/lib/python3.8/site-packages/state_estimation
+byte-compiling /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/install/state_estimation/lib/python3.8/site-packages/state_estimation/ekf.py to ekf.cpython-38.pyc
+byte-compiling /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/install/state_estimation/lib/python3.8/site-packages/state_estimation/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/install/state_estimation/lib/python3.8/site-packages/state_estimation/ekf_publisher.py to ekf_publisher.cpython-38.pyc
+byte-compiling /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/install/state_estimation/lib/python3.8/site-packages/state_estimation/geonav_conversions.py to geonav_conversions.cpython-38.pyc
+running install_data
+creating /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/install/state_estimation/share/ament_index
+creating /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/install/state_estimation/share/ament_index/resource_index
+creating /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/install/state_estimation/share/ament_index/resource_index/packages
+copying resource/state_estimation -> /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/install/state_estimation/share/ament_index/resource_index/packages
+copying package.xml -> /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/install/state_estimation/share/state_estimation
+running install_egg_info
+Copying build/state_estimation/state_estimation.egg-info to /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/install/state_estimation/lib/python3.8/site-packages/state_estimation-0.0.0-py3.8.egg-info
+running install_scripts
+Installing ekf script to /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/install/state_estimation/lib/state_estimation
+writing list of installed files to '/home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/build/state_estimation/install.log'

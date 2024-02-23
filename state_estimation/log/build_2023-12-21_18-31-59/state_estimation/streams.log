@@ -1,0 +1,43 @@
+[1.536s] Invoking command in '/home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation': PYTHONPATH=/home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/build/state_estimation/prefix_override:/home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/install/state_estimation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/state_estimation build --build-base /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/build/state_estimation/build install --record /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/build/state_estimation/install.log --install-scripts $base/lib/state_estimation --single-version-externally-managed
+[1.858s] running egg_info
+[1.858s] creating build/state_estimation/state_estimation.egg-info
+[1.859s] writing build/state_estimation/state_estimation.egg-info/PKG-INFO
+[1.859s] writing dependency_links to build/state_estimation/state_estimation.egg-info/dependency_links.txt
+[1.860s] writing entry points to build/state_estimation/state_estimation.egg-info/entry_points.txt
+[1.860s] writing requirements to build/state_estimation/state_estimation.egg-info/requires.txt
+[1.860s] writing top-level names to build/state_estimation/state_estimation.egg-info/top_level.txt
+[1.865s] writing manifest file 'build/state_estimation/state_estimation.egg-info/SOURCES.txt'
+[1.936s] reading manifest file 'build/state_estimation/state_estimation.egg-info/SOURCES.txt'
+[1.938s] writing manifest file 'build/state_estimation/state_estimation.egg-info/SOURCES.txt'
+[1.938s] running build
+[1.938s] running build_py
+[1.938s] creating /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/build/state_estimation/build
+[1.938s] creating /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/build/state_estimation/build/lib
+[1.939s] creating /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/build/state_estimation/build/lib/state_estimation
+[1.939s] copying state_estimation/ekf.py -> /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/build/state_estimation/build/lib/state_estimation
+[1.939s] copying state_estimation/__init__.py -> /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/build/state_estimation/build/lib/state_estimation
+[1.939s] copying state_estimation/ekf_publisher.py -> /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/build/state_estimation/build/lib/state_estimation
+[1.939s] copying state_estimation/geonav_conversions.py -> /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/build/state_estimation/build/lib/state_estimation
+[1.940s] running install
+[1.942s] running install_lib
+[1.943s] creating /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/install/state_estimation/lib/python3.8/site-packages/state_estimation
+[1.943s] copying /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/build/state_estimation/build/lib/state_estimation/ekf.py -> /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/install/state_estimation/lib/python3.8/site-packages/state_estimation
+[1.943s] copying /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/build/state_estimation/build/lib/state_estimation/__init__.py -> /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/install/state_estimation/lib/python3.8/site-packages/state_estimation
+[1.944s] copying /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/build/state_estimation/build/lib/state_estimation/ekf_publisher.py -> /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/install/state_estimation/lib/python3.8/site-packages/state_estimation
+[1.944s] copying /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/build/state_estimation/build/lib/state_estimation/geonav_conversions.py -> /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/install/state_estimation/lib/python3.8/site-packages/state_estimation
+[1.945s] byte-compiling /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/install/state_estimation/lib/python3.8/site-packages/state_estimation/ekf.py to ekf.cpython-38.pyc
+[1.949s] byte-compiling /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/install/state_estimation/lib/python3.8/site-packages/state_estimation/__init__.py to __init__.cpython-38.pyc
+[1.949s] byte-compiling /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/install/state_estimation/lib/python3.8/site-packages/state_estimation/ekf_publisher.py to ekf_publisher.cpython-38.pyc
+[1.950s] byte-compiling /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/install/state_estimation/lib/python3.8/site-packages/state_estimation/geonav_conversions.py to geonav_conversions.cpython-38.pyc
+[1.952s] running install_data
+[1.953s] creating /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/install/state_estimation/share/ament_index
+[1.953s] creating /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/install/state_estimation/share/ament_index/resource_index
+[1.953s] creating /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/install/state_estimation/share/ament_index/resource_index/packages
+[1.953s] copying resource/state_estimation -> /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/install/state_estimation/share/ament_index/resource_index/packages
+[1.954s] copying package.xml -> /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/install/state_estimation/share/state_estimation
+[1.954s] running install_egg_info
+[1.955s] Copying build/state_estimation/state_estimation.egg-info to /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/install/state_estimation/lib/python3.8/site-packages/state_estimation-0.0.0-py3.8.egg-info
+[1.957s] running install_scripts
+[1.979s] Installing ekf script to /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/install/state_estimation/lib/state_estimation
+[1.980s] writing list of installed files to '/home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/build/state_estimation/install.log'
+[2.008s] Invoked command in '/home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation' returned '0': PYTHONPATH=/home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/build/state_estimation/prefix_override:/home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/install/state_estimation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/state_estimation build --build-base /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/build/state_estimation/build install --record /home/hammad/Desktop/fern_sim_ws/fern-dv-sim/state_estimation/build/state_estimation/install.log --install-scripts $base/lib/state_estimation --single-version-externally-managed
