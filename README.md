@@ -6,6 +6,12 @@ State Estimation for Autonomous Car
 
 This repository focuses on the state estimation module for autonomous vehicles, integrating the SBG Systems Inertial Measurement Unit (IMU) for precise and reliable state estimation. The module incorporates the SBG ROS2 Driver to interface with the SBG IMU seamlessly.
 
+## Installation
+### Installation from Packages
+User can install the sbg_ros2_driver through the standard ROS installation system.
+* Galactic ```sudo apt-get install ros-galactic-sbg-driver```
+* Foxy ```sudo apt-get install ros-foxy-sbg-driver```
+
 ## Requirements
 
 The code has been tested on the following setup:
@@ -14,8 +20,21 @@ The code has been tested on the following setup:
 - **Operating System**: Ubuntu 20.04 (May also work on 22.04)
 - **ROS Version**: ROS2 Galactic (Possibly compatible with Humble and Foxy, although not yet tested)
 - **Dependencies**: 
-  - https://github.com/SBG-Systems/sbg_ros2_driver.git for SBG driver
-  - Other dependencies will be installed when cloning the repository.
+  - Robot Operating System (ROS)
+  - SBG Driver
+
+## Usage
+To run the default Ros2 node with the default configuration
+
+```
+ros2 launch sbg_driver sbg_device_launch.py
+```
+
+To run the magnetic calibration node
+
+```
+ros2 launch sbg_driver sbg_device_mag_calibration_launch.py
+```
 
 ## Getting Started
 
