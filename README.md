@@ -1,10 +1,87 @@
 # State-Estimation-Autonomous-Vehicle
+
+State Estimation for Autonomous Car
+
+## Overview
+
+This repository focuses on the state estimation module for autonomous vehicles, integrating the SBG Systems Inertial Measurement Unit (IMU) for precise and reliable state estimation. The module incorporates the SBG ROS2 Driver to interface with the SBG IMU seamlessly.
+
+## Requirements
+
+The code has been tested on the following setup:
+
+- **Hardware**: SBG Systems IMU
+- **Operating System**: Ubuntu 20.04 (May also work on 22.04)
+- **ROS Version**: ROS2 Galactic (Possibly compatible with Humble and Foxy, although not yet tested)
+- **Dependencies**: 
+  - https://github.com/SBG-Systems/sbg_ros2_driver.git for SBG driver
+  - Other dependencies will be installed when cloning the repository.
+
+## Getting Started
+
+Ensure that you have all the requirements satisfied before proceeding.
+
+### Clone the Repository
+
+`git clone https://github.com/HammadSiddiqui30/State-Estimation-Autonomous-Vehicle.git
+
+
+##  Build
+Navigate to the cloned repository directory and build using Colcon:
+
+
+`cd <repository_directory>`
+
+`colcon build`
+
+
+If all steps have been successful up to this point, proceed with the following:
+
+
+Connect the SBG IMU
+
+`Run the ekf node in State Estimation.`
+'ros2 run state_estimation ekf'
+
+
+
+###  Contributions
+Contributions to enhance the functionality, efficiency, or compatibility of this perception module are welcome. Please refer to the contribution guidelines for more information.
+
+###  License
+This project is licensed under the MIT License. Feel free to use and modify the code according to your requirements.
+
+### TESTING VIDEOS:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# State-Estimation-Autonomous-Vehicle
 State Estimation for Autonomous Car
 
 Welcome to the State Estimation for Autonomous Car repository!
 
 ## Overview
-This repository focuses on the state estimation module for autonomous vehicles, integrating the SBG Systems Inertial Measurement Unit (IMU) for precise and reliable state estimation. The module incorporates the SBG ROS2 Driver to interface with the SBG IMU seamlessly.
+
 
 ## Features
 SBG Systems IMU Integration: The code seamlessly interfaces with the SBG Systems IMU, utilizing the SBG ROS2 Driver to extract valuable sensor data for state estimation.
@@ -24,9 +101,6 @@ Getting Started
 Ensure that you have all the requirements satisfied before proceeding.
 
 ## Clone the Repository:
-
-bash
-Copy code
 git clone https://github.com/HammadSiddiqui30/State-Estimation-Autonomous-Vehicle.git
 Build:
 Navigate to the cloned repository directory and build using Colcon:
