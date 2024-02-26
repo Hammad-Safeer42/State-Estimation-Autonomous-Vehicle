@@ -68,7 +68,7 @@ Run the ekf node in State Estimation.
 Contributions to enhance the functionality, efficiency, or compatibility of this perception module are welcome. Please refer to the contribution guidelines for more information.
 
 ###  License
-This project is licensed under the MIT License. Feel free to use and modify the code according to your requirements.
+This project is licensed under the MIT License. Feel free to use and modify the code.
 
 ### TESTING VIDEOS:
 
