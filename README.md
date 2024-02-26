@@ -60,7 +60,9 @@ If all steps have been successful up to this point, proceed with the following:
 Connect the SBG IMU
 
 Run the ekf node in State Estimation.
-`ros2 run state_estimation ekf`
+ ```bash
+ ros2 run state_estimation ekf
+ bash
 
 
 
